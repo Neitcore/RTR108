@@ -1,0 +1,58 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  git clone https://github.com/Neitcore/RTR105
+    4  cd RTR105/
+    5  cd darbi/
+    6  cd ..
+    7  git clone https://github.com/Neitcore/RTR108
+    8  ls -l
+    9  cd RTR105
+   10  ls -l
+   11  cd ..
+   12  cp RTR105/git-upload RTR108/git-upload
+   13  cd RTR108
+   14  ls -l
+   15  mkdir darbi
+   16  ls -l
+   17  ./git-upload 20200130_12_47
+   18  ls -l
+   19  cd darbi/
+   20  python
+   21  nano test.py
+   22  python
+   23  test.py
+   24  ./test.py
+   25  python test.py
+   26  python
+   27  ipython
+   28  python2
+   29  python
+   30  nano test.py 
+   31  python test.py 
+   32  nano test.py 
+   33  python test.py 
+   34  nano test.py 
+   35  python test.py 
+   36  nano test.py 
+   37  python
+   38  python --version
+   39  cd ..
+   40  cd darbi/
+   41  cp test.py python_tests_auto_exe.py
+   42  nano python_tests_auto_exe.py 
+   43  ls -l
+   44  ls -l /usr/bin/python
+   45  chmod 744 python_tests_auto_exe.py 
+   46  mv python_tests_auto_exe.py python_tests_auto_exe
+   47  ls -l
+   48  nano python_tests_auto_exe 
+   49  ./python_tests_auto_exe 
+   50  cat python_tests_auto_exe 
+   51  ./python_tests_auto_exe 
+   52  nano python_tests_auto_exe 
+   53  ./python_tests_auto_exe 
+   54  idle &
+   55  ls -l
+   56  cat diary_20200130.py 
+   57  python -m http.server 8000
+   58  history > history_20200130.txt
